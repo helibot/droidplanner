@@ -12,7 +12,8 @@
         <item>Flight Data</item>
         <item>RC</item>
         <item>Terminal</item>
-        <item>GCP</item>        
+        <item>GCP</item>  
+        <item>PID</item>        
     </string-array>
     
     <string-array name="menu_fligth_modes">

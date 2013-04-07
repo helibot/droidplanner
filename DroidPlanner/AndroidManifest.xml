@@ -101,6 +101,8 @@
         </activity>
         <activity android:name="com.droidplanner.SettingsActivity" >
         </activity>
+        <activity android:name="com.droidplanner.PIDActivity" >
+        </activity>
     </application>
 
 </manifest>

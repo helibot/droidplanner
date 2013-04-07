@@ -57,7 +57,7 @@ public abstract class SuperActivity extends Activity implements
 			navigationIntent = new Intent(this, FlightDataActivity.class);
 			navigationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			break;
-		case 3: // PID
+		case 3: // RC
 			navigationIntent = new Intent(this, RCActivity.class);
 			break;
 		case 4: // Terminal
@@ -65,6 +65,9 @@ public abstract class SuperActivity extends Activity implements
 			break;
 		case 5: // GCP
 			navigationIntent = new Intent(this, GCPActivity.class);
+			break;
+		case 6: // PID
+			navigationIntent = new Intent(this, PIDActivity.class);
 			break;
 		}
 		startActivity(navigationIntent);
