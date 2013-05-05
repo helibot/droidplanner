@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/InegativeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/IpositiveButton"
+        android:layout_alignTop="@+id/PnegativeButton"
+        android:background="@drawable/negativebutton"
+        android:contentDescription="@string/negativeIAngular"
+        android:src="@drawable/negativebutton" />
+
+    <ImageButton
+        android:id="@+id/DnegativeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DpositiveButton"
+        android:layout_alignTop="@+id/InegativeButton"
+        android:background="@drawable/negativebutton"
+        android:contentDescription="negativeDAngular"
+        android:src="@drawable/negativebutton" />
+
+    <ImageButton
+        android:id="@+id/DpositiveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/IpositiveButton"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/positivebutton"
+        android:contentDescription="@string/positiveDAngular"
+        android:src="@drawable/positivebutton" />
+
+    <ImageButton
+        android:id="@+id/PnegativeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/PpositiveButton"
+        android:layout_below="@+id/PpositiveButton"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/negativebutton"
+        android:contentDescription="@string/negativePAngular"
+        android:src="@drawable/negativebutton" />
+
+    <ImageButton
+        android:id="@+id/IpositiveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/PnegativeButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/positivebutton"
+        android:contentDescription="@string/positiveIAngular"
+        android:src="@drawable/positivebutton" />
+
+    <ImageButton
+        android:id="@+id/PpositiveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/positivebutton"
+        android:contentDescription="@string/positivePAngular"
+        android:src="@drawable/positivebutton" />
+
+    <TextView
+        android:id="@+id/Pletter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/IpositiveButton"
+        android:layout_alignRight="@+id/PpositiveButton"
+        android:layout_marginRight="13dp"
+        android:gravity="top|left"
+        android:text="@string/Pletter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="39sp" />
+
+    <TextView
+        android:id="@+id/Iletter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/IpositiveButton"
+        android:layout_centerHorizontal="true"
+        android:gravity="top|center_vertical"
+        android:text="@string/Iletter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="39sp" />
+
+    <TextView
+        android:id="@+id/Dletter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Iletter"
+        android:layout_alignBottom="@+id/Iletter"
+        android:layout_alignRight="@+id/DpositiveButton"
+        android:layout_marginRight="16dp"
+        android:gravity="top|right"
+        android:text="@string/dletter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="39sp" />
+
+    <TextView
+        android:id="@+id/Angularpids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Pletter"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/anglularPidsPichandRoll"
+        android:gravity="top"
+        android:text="@string/anglularPidsPichandRoll1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/Pedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/InegativeButton"
+        android:layout_alignLeft="@+id/PnegativeButton"
+        android:text="@string/pitchandrollPnumbers"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/Iedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/InegativeButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pitchandrollInumbers"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/Dedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DnegativeButton"
+        android:layout_alignRight="@+id/DnegativeButton"
+        android:text="@string/pitchandrollDnumbers"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
