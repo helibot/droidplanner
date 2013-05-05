@@ -13,7 +13,6 @@ import android.widget.SpinnerAdapter;
 
 import com.droidplanner.DroidPlannerApp;
 import com.droidplanner.DroidPlannerApp.ConnectionStateListner;
-import com.droidplanner.PIDActivity;
 import com.droidplanner.R;
 import com.droidplanner.MAVLink.Drone;
 import com.droidplanner.dialogs.AltitudeDialog;

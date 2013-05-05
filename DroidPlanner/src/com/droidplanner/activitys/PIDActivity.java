@@ -1,8 +1,8 @@
-package com.droidplanner;
-
-import com.droidplanner.activitys.SuperActivity;
+package com.droidplanner.activitys;
 
 import android.os.Bundle;
+
+import com.droidplanner.R;
 
 public class PIDActivity extends SuperActivity {
 

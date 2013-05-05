@@ -101,7 +101,7 @@
         </activity>
         <activity android:name=".activitys.SettingsActivity" >
         </activity>
-        <activity android:name="com.droidplanner.PIDActivity" >
+        <activity android:name=".activitys.PIDActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
