@@ -1,12 +1,14 @@
 package com.droidplanner;
 
+import com.droidplanner.activitys.SuperActivity;
+
 import android.os.Bundle;
 
 public class PIDActivity extends SuperActivity {
 
 	@Override
 	int getNavigationItem() {
-		return 6;
+		return 4;
 	}
 
 	@Override
